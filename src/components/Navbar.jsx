@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import Hamburger from "hamburger-react";
 import React, { useContext, useState } from "react";
+import Font from "react-font";
 import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 
@@ -50,16 +51,18 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
-            <a
-              href="/"
-              className={
-                darkMode
-                  ? "text-xl font-medium text-decoration-none whitespace-nowrap text-black"
-                  : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
-              }
-            >
-              {`Amiel Refaeli`}
-            </a>
+            <Font family="Marck Script">
+              <a
+                href="/"
+                className={
+                  darkMode
+                    ? "text-3xl font-medium text-decoration-none whitespace-nowrap text-black"
+                    : "text-3xl font-medium text-decoration-none whitespace-nowrap text-white"
+                }
+              >
+                {`Amiel Refaeli`}
+              </a>
+            </Font>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
             <ul
