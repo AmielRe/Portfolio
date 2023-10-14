@@ -1,4 +1,6 @@
+import ArrowIcon from "@material-ui/icons/ArrowUpward";
 import { useEffect, useState } from "react";
+import ScrollToTop from "react-scroll-up";
 import LoadingScreen from "./components/LoadingScreen";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./themeProvider";
@@ -21,6 +23,21 @@ function App() {
             <Home />
             <About />
             <TechStack />
+            <ScrollToTop showUnder={160}>
+              <span
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  width: "40px", // Adjust the size of the circle as needed
+                  height: "40px", // Make sure width and height are equal for a circle
+                  borderRadius: "50%", // Creates a circle
+                  borderWidth: 5,
+                }}
+              >
+                <ArrowIcon className="text-xl text-cyan-400" />
+              </span>
+            </ScrollToTop>
           </div>
         ) : (
           <LoadingScreen />
