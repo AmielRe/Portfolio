@@ -45,8 +45,8 @@ const Navbar = () => {
       <nav
         className={
           darkMode
-            ? "bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
-            : "bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
+            ? "p-2 bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
+            : "p-2 bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
@@ -67,7 +67,7 @@ const Navbar = () => {
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
             <ul
               class={
-                "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
+                "flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
               }
             >
               {links.map((el) => (

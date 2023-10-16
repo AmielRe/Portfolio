@@ -114,3 +114,54 @@ export const serviceData = [
     img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    href: "https://github.com/AmielRe/PackageShield",
+    thumbnail: "./PackageShield.png",
+    title: "PackageShield",
+    description: "Scan your packages for any vulnerability!",
+    tags: ["Java", "Spring", "Docker"],
+  },
+  {
+    id: 2,
+    href: "https://github.com/AmielRe/MovieCenter",
+    thumbnail: "./MovieCenter.png",
+    title: "MovieCenter",
+    description: "Post reviews and see community ratings of movies!",
+    tags: ["Java", "Android Studio", "Firebase"],
+  },
+  {
+    id: 3,
+    href: "https://github.com/AmielRe/EasyHotel",
+    thumbnail: "./EasyHotel.jpg",
+    title: "EasyHotel",
+    description: "An all in one hotel management system",
+    tags: ["JavaScript", "HTML", "CSS", "EJS"],
+  },
+  {
+    id: 4,
+    href: "https://github.com/AmielRe/RecruitBot",
+    thumbnail: "./RecruitBot.jpg",
+    title: "RecruitBot",
+    description: "Chat conversations API for recruiters!",
+    tags: ["Python", "Postman", "FastAPI"],
+  },
+  {
+    id: 5,
+    href: "https://github.com/AmielRe/TLS",
+    thumbnail: "./TLS.jpg",
+    title: "TLS",
+    description: "Application for managing rooms in military base",
+    tags: ["Java", "Android Studio", "Firebase"],
+  },
+  {
+    id: 6,
+    href: "https://github.com/AmielRe/TelegramTutorBot",
+    thumbnail: "./TelegramTutorBot.jpg",
+    title: "TelegramTutorBot",
+    description: "Telegram bot for private lessons",
+    tags: ["Python", "Telegram API"],
+  },
+];

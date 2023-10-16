@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import React, { useContext } from "react";
-import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";

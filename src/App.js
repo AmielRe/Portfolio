@@ -1,4 +1,5 @@
 import ArrowIcon from "@material-ui/icons/ArrowUpward";
+import "bootstrap/dist/css/bootstrap-grid.min.css";
 import { useEffect, useState } from "react";
 import ScrollToTop from "react-scroll-up";
 import LoadingScreen from "./components/LoadingScreen";
@@ -6,6 +7,7 @@ import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./themeProvider";
 import About from "./views/About";
 import Home from "./views/Home";
+import Projects from "./views/Projects";
 import TechStack from "./views/TechStack";
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
             <Home />
             <About />
             <TechStack />
+            <Projects />
             <ScrollToTop showUnder={160}>
               <span
                 style={{

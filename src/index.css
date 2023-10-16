@@ -86,3 +86,11 @@ code {
 p {
   font-weight: normal !important;
 }
+
+.projects-list {
+  display: inline-flex !important;
+}
+
+[class^="src-TaggedContentCard-CardContent-styles-module__tags"] {
+  padding-top: 10px;
+}
