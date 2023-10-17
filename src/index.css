@@ -94,3 +94,7 @@ p {
 [class^="src-TaggedContentCard-CardContent-styles-module__tags"] {
   padding-top: 10px;
 }
+
+.stick-to-bottom {
+  margin-top: 180px;
+}

@@ -6,6 +6,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import Navbar from "./components/Navbar";
 import { ThemeProvider } from "./themeProvider";
 import About from "./views/About";
+import Contact from "./views/Contact";
 import Home from "./views/Home";
 import Projects from "./views/Projects";
 import TechStack from "./views/TechStack";
@@ -26,6 +27,7 @@ function App() {
             <About />
             <TechStack />
             <Projects />
+            <Contact />
             <ScrollToTop showUnder={160}>
               <span
                 style={{
