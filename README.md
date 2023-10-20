@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+ ![image](https://github.com/AmielRe/amielre.github.io/assets/16361162/f2bb8986-ac26-4ed7-bc90-751405e01cdf)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Creating my portfolio website in React was a fulfilling journey. Leveraging React's component-based structure empowered me to design a responsive and dynamic site, and I appreciated the modularity and reusability it offered. While it did entail a learning curve, the final product is a highly customizable and interactive showcase of some of my development skills that I'm proud of.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If you're trying to create a portfolio, here are some tips to get you started:
+1. **Start with a Clear Purpose:** Define the purpose of your portfolio. What do you want to showcase? Is it your web development skills, design work, writing, or a combination? Knowing your purpose will help you structure the content effectively.
+2. **Choose a Clean Design:** Keep the design clean and user-friendly. A cluttered website can be overwhelming. Use a modern, visually appealing design that complements your work.
+3. **Highlight Your Best Work:** Feature your most impressive and relevant projects. Quality matters more than quantity. Showcase a variety of projects that demonstrate your skills and versatility.
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was built using the following technologies:
 
-### `npm run build`
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for quickly styling your application.
+- [Bootstrap](https://getbootstrap.com/): A popular front-end framework for building responsive and mobile-first web applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+My portfolio website showcases the following key features:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Project Showcase**: I've highlighted my best projects, providing detailed descriptions and visuals so that visitors can explore my work.
 
-### `npm run eject`
+- **Responsive Design**: The website is fully responsive, ensuring it looks great on various devices and screen sizes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Interactive Portfolio**: I've added interactive elements like hover effects, animations, and dynamic content to engage visitors and make the portfolio visually appealing.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **About Me**: Get to know me better through a well-crafted "About Me" section where I share insights into my background and passion for my field.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Contact**: You can easily reach out to me through the provided contact information, be it an email address or a user-friendly contact form.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+Feel free to send me a message, I'd love to hear from you!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="start">
+&nbsp; <a href="https://www.linkedin.com/in/amiel-refaeli/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="75" /></a>
+&nbsp; <a href="mailto:amieli1999@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/gmail.png"  width="75" /></a>
+</p>
