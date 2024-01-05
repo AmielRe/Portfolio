@@ -10,9 +10,7 @@ const Contact = () => {
     <div
       id="contact"
       className={
-        darkMode
-          ? "bg-gray-100 pt-24 md:h-screen"
-          : "bg-black pt-24 text-white md:h-screen"
+        darkMode ? "bg-gray-100 pt-12" : "bg-gray-900 pt-12 text-white"
       }
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
@@ -26,7 +24,7 @@ const Contact = () => {
             like to say hello, send me a message. I'd love to hear from you.
           </p>
         </div>
-        <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
+        <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row">
           <div className="w-full md:pr-8">
             <img className="pt-5" alt="" src={ContactImage} />
           </div>

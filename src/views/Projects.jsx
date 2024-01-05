@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className={darkMode === true ? "bg-white" : "bg-gray-900"}
+      className={darkMode === true ? "bg-white" : "bg-gray-800"}
     >
       <Container className="py-5">
         <h2

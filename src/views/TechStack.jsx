@@ -7,10 +7,7 @@ const TechStack = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div
-      id="techstack"
-      className={darkMode === true ? "bg-white" : "bg-gray-900"}
-    >
+    <div id="techstack" className={darkMode ? "bg-white" : "bg-gray-800"}>
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-12 pb-12">
         <h2
           className={
