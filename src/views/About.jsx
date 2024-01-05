@@ -13,7 +13,7 @@ const About = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div id="about" className={darkMode === true ? "bg-white" : "bg-gray-900"}>
+    <div id="about" className={darkMode === true ? "bg-white" : "bg-gray-800"}>
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
         <h2
           className={
@@ -28,6 +28,27 @@ const About = () => {
           <VerticalTimeline
             className={darkMode === true ? "vertical-timeline-custom-line" : ""}
           >
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentArrowStyle={{
+                borderRight: "10px solid rgb(33, 150, 243)",
+              }}
+              date="Jan 2024 - Present"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<WorkIcon />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Senior Software Engineer, Tipalti
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Tel Aviv, Israel
+              </h4>
+              <p>
+                Create and maintain top-tier software for our financial
+                platform. Lead projects, mentor teammates, and drive innovation
+                in global payment automation.
+              </p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               contentArrowStyle={{

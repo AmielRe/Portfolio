@@ -51,7 +51,13 @@ const Home = () => {
               }
             >
               I am a Back-End / Full-Stack Developer. <br />I am currently
-              looking for a job.
+              Senior Software Engineer{" "}
+              <a
+                className="text-blue-500 font-medium"
+                href="https://tipalti.com/"
+              >
+                @Tipalti.
+              </a>
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -60,7 +66,6 @@ const Home = () => {
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
                   <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </div>
