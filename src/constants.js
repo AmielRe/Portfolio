@@ -158,10 +158,11 @@ export const projects = [
   },
   {
     id: 6,
-    href: "https://github.com/AmielRe/TelegramTutorBot",
-    thumbnail: "./TelegramTutorBot.jpg",
-    title: "TelegramTutorBot",
-    description: "Telegram bot for private lessons",
-    tags: ["Python", "Telegram API"],
+    href: "https://github.com/AmielRe/RepoInspector",
+    thumbnail: "./RepoInspector.png",
+    title: "RepoInspector",
+    description:
+      "CLI application that detect and notify suspicious behavior in an integrated GitHub organizations",
+    tags: ["C#", "GitHub API"],
   },
 ];
